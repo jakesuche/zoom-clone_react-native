@@ -10,7 +10,7 @@ const items = [
 const MenuButtons = ({navigation}) => {
 
 const openMeeting = () =>{
-  console.log(navigation)
+  
     navigation.navigate("Room")
 }
 
